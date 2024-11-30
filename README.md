@@ -1,4 +1,15 @@
-# Flask Web App Tutorial
+# Flask Web App Tutorial - BLOG
+
+## Blog Webpage Features
+
+This blog page is built using Flask and offers key features that enhance the user experience and authentication
+
+📝 **User Authentication:**
+- Users can sign up, log in, and manage their accounts securely.
+- Passwords are hashed for security using Flask extensions like Flask-Bcrypt.
+- Users can log out and view a secure area where they can interact with blog posts.
+
+
 
 ## Setup & Installation
 
