@@ -29,3 +29,20 @@ Go to `http://127.0.0.1:5000`
 - 🔧 **Flexible & Lightweight:** With its minimalist approach, Flask gives you full control over how your application is structured, without enforcing unnecessary constraints.
 - 🌍 **Large Community & Resources:** Flask's active community ensures plenty of tutorials, plugins, and documentation, making learning and problem-solving easier than ever.
 - 🔒 **Secure & Reliable:** Flask offers built-in tools and extensions to secure your application, enabling you to handle user authentication, form validation, and more with ease.
+
+## Project Structure
+
+Here's an overview of the key files in the project:
+
+### app.py
+This is the main file that runs the Flask app. It initializes the app, handles routes, and starts the server.
+
+### model.py
+This file defines the database structure. It uses SQLAlchemy to create and manage your database models, allowing you to store and retrieve data effectively.
+
+### auth.py
+Handles user authentication. This file includes functions for user login, registration, and managing sessions. It ensures that users can securely sign in and out of the app.
+
+### views.py
+Contains the code to delete file in the notes and to for other purpose.
+
